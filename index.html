@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puvanart Saruttanontha — Full-stack Developer</title>
+<meta name="description" content="พอร์ตโฟลิโอและเรซูเม่ของ ภูวนาท ศรุตติ์ตานนทร์ (Puvanart Saruttanontha) นักพัฒนา Full-stack">
+<link rel="icon" type="image/png" href="assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=IBM+Plex+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#main">ข้ามไปยังเนื้อหา</a>
+
+<div class="noise" aria-hidden="true"></div>
+
+<nav class="topbar" aria-label="เมนูหลัก">
+  <div class="topbar__inner">
+    <a class="topbar__brand" href="#top">
+      <img src="assets/profile.jpg" alt="" class="topbar__avatar">
+      <span>Puvanart<span class="dot">.</span></span>
+    </a>
+    <ul class="topbar__links">
+      <li><a href="#about">เกี่ยวกับ</a></li>
+      <li><a href="#skills">ความถนัด</a></li>
+      <li><a href="#works">ผลงาน</a></li>
+      <li><a href="#certs">ใบรับรอง</a></li>
+      <li><a href="#contact">ติดต่อ</a></li>
+    </ul>
+    <a class="btn-cta" href="#contact">ติดต่อฉัน</a>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- ─── HERO ─── -->
+  <header id="top" class="hero">
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <p class="hero__eyebrow">Full-stack Developer</p>
+        <h1 class="hero__title">
+          ภูวนาท ศรุตติ์ตานนทร์
+          <span class="hero__title-en">Puvanart Saruttanontha</span>
+        </h1>
+        <p class="hero__lead">
+          สร้างเว็บแอปพลิเคชันครบวงจร ตั้งแต่หน้าจอผู้ใช้ไปจนถึงระบบหลังบ้านและฐานข้อมูล
+          สนใจงานด้าน AI Chatbot, ระบบอัตโนมัติ และการวางโครงสร้างซอฟต์แวร์ให้ดูแลต่อได้ในระยะยาว
+        </p>
+        <div class="hero__actions">
+          <a class="btn-primary" href="#works">ดูผลงาน</a>
+          <a class="btn-ghost" href="#certs">ดูใบรับรอง</a>
+        </div>
+      </div>
+      <div class="hero__portrait">
+        <div class="hero__portrait-frame">
+          <img src="assets/profile.jpg" alt="ภาพโปรไฟล์ของภูวนาท ศรุตติ์ตานนทร์">
+        </div>
+        <span class="hero__portrait-tag">17 ใบรับรอง GitHub / Microsoft</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+
+    <!-- ─── เกี่ยวกับ ─── -->
+    <section id="about" class="section">
+      <div class="section__label"><span>01</span>เกี่ยวกับฉัน</div>
+      <div class="section__body">
+        <div class="about__grid">
+          <p class="about__text">
+            ผมเป็นนักพัฒนาซอฟต์แวร์ที่ทำงานได้ทั้งฝั่งหน้าบ้านและหลังบ้าน
+            เริ่มจากการเขียนเว็บด้วย HTML และ CSS แล้วขยับมาทำงานกับ React
+            ควบคู่กับการเขียน API ด้วย Node.js และ C# ช่วงหลังผมสนใจงานด้าน AI
+            เป็นพิเศษ โดยเฉพาะการต่อ Chatbot เข้ากับระบบ RAG และโมเดลภาษาเพื่อให้ตอบคำถามได้แม่นยำขึ้น
+          </p>
+          <p class="about__text">
+            ผมให้ความสำคัญกับการควบคุมเวอร์ชันโค้ดอย่างเป็นระบบ ตั้งขั้นตอนทดสอบและส่งมอบงานแบบอัตโนมัติ
+            (CI/CD) ผ่าน GitHub Actions และทดสอบ API ด้วย Postman ก่อนส่งมอบงานทุกครั้ง
+          </p>
+          <dl class="about__facts">
+            <div><dt>ตำแหน่งที่สนใจ</dt><dd>Full-stack / Backend Developer</dd></div>
+            <div><dt>สนใจเป็นพิเศษ</dt><dd>AI Chatbot &amp; RAG Systems</dd></div>
+            <div><dt>ภาษา</dt><dd>ไทย (เจ้าของภาษา) · อังกฤษ (ใช้งานได้)</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── ความถนัด ─── -->
+    <section id="skills" class="section">
+      <div class="section__label"><span>02</span>ความถนัด</div>
+      <div class="section__body">
+        <div class="skills__grid">
+          <article class="skillcard">
+            <h3>Frontend</h3>
+            <ul class="tags">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li>
+            </ul>
+            <p>ทำหน้าจอให้ใช้งานได้จริงทั้งบนมือถือและเดสก์ท็อป จัดการ state และเชื่อมต่อ API</p>
+          </article>
+
+          <article class="skillcard">
+            <h3>Backend</h3>
+            <ul class="tags">
+              <li>Node.js</li><li>C#</li><li>REST API</li>
+            </ul>
+            <p>ออกแบบและพัฒนา API ระบบยืนยันตัวตน และเชื่อมต่อกับบริการภายนอกอย่าง LLM หรือ LINE</p>
+          </article>
+
+          <article class="skillcard">
+            <h3>ฐานข้อมูล</h3>
+            <ul class="tags">
+              <li>MySQL</li><li>ChromaDB</li>
+            </ul>
+            <p>ออกแบบตาราง ความสัมพันธ์ และเขียน SQL สำหรับดึงข้อมูล รวมถึง Vector DB สำหรับงาน RAG</p>
+          </article>
+
+          <article class="skillcard">
+            <h3>เครื่องมือ</h3>
+            <ul class="tags">
+              <li>Git</li><li>GitHub Actions</li><li>Docker</li><li>Postman</li>
+            </ul>
+            <p>ควบคุมเวอร์ชันโค้ด ตั้งขั้นตอนทดสอบ–ส่งมอบอัตโนมัติ และทดสอบ API ก่อนส่งงานทุกครั้ง</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── ผลงาน ─── -->
+    <section id="works" class="section">
+      <div class="section__label"><span>03</span>ผลงาน</div>
+      <div class="section__body">
+        <div class="works__list">
+
+          <article class="work">
+            <div class="work__media">
+              <img src="assets/works/community.jpg" alt="ภาพหน้าจอเว็บคอมมูนิตี้ซื้อขายอสังหาริมทรัพย์">
+            </div>
+            <div class="work__content">
+              <h3>คอมมูนิตี้ซื้อขายอสังหาริมทรัพย์</h3>
+              <p>
+                เว็บคอมมูนิตี้สำหรับผู้ใช้ทั่วไปโพสต์ขายและโพสต์รูปภาพอสังหาริมทรัพย์ พร้อมข้อความบรรยาย
+                ออกแบบการใช้งานให้คล้ายฟีดของ Facebook เพื่อให้ผู้ใช้คุ้นเคยและเข้าถึงง่าย
+              </p>
+              <ul class="tags tags--sm">
+                <li>Community</li><li>Social Feed</li><li>Web App</li>
+              </ul>
+              <a class="work__link" href="https://github.com/Mos0991451726/Project-2" target="_blank" rel="noopener">
+                ดูซอร์สโค้ดบน GitHub ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="work">
+            <div class="work__media">
+              <img src="assets/works/pc-shop.jpg" alt="ภาพหน้าจอเว็บไซต์ขายอุปกรณ์คอมพิวเตอร์">
+            </div>
+            <div class="work__content">
+              <h3>เว็บไซต์ขายอุปกรณ์คอมพิวเตอร์</h3>
+              <p>
+                ออกแบบและพัฒนาเว็บไซต์ขายอุปกรณ์คอมพิวเตอร์ ครอบคลุมตั้งแต่หน้าแสดงสินค้า ตะกร้าสินค้า
+                จนถึงระบบสั่งซื้อ ใช้ MySQL เป็นฐานข้อมูลหลักของระบบ
+              </p>
+              <ul class="tags tags--sm">
+                <li>MySQL</li><li>E-commerce</li>
+              </ul>
+              <a class="work__link" href="https://github.com/thanapat-hnu/Project_CSI400/tree/master" target="_blank" rel="noopener">
+                ดูซอร์สโค้ดบน GitHub ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="work work--featured">
+            <div class="work__media">
+              <img src="assets/works/chatbot.png" alt="ภาพหน้าจอแชทบอทให้ความรู้การลงทุนทองคำ">
+            </div>
+            <div class="work__content">
+              <h3>แชทบอทให้ความรู้การลงทุนทองคำ (RAG)</h3>
+              <p>
+                ระบบแชทบอทให้ความรู้ด้านการลงทุนทองคำ ใช้เทคนิค RAG (Retrieval-Augmented Generation)
+                ดึงข้อมูลที่เกี่ยวข้องจาก ChromaDB แล้วส่งต่อให้ LLM ผ่าน Ollama ประมวลผลและตอบคำถาม
+                ให้ตรงประเด็นและอ้างอิงข้อมูลจริง
+              </p>
+              <ul class="tags tags--sm">
+                <li>RAG</li><li>ChromaDB</li><li>Ollama</li><li>LLM</li>
+              </ul>
+              <div class="work__video">
+                <iframe
+                  src="https://www.youtube.com/embed/_qUhW5lGIKM"
+                  title="สาธิตแชทบอทให้ความรู้การลงทุนทองคำ"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <a class="work__link" href="https://github.com/Mos0991451726/Project3-2/tree/%E0%B8%A3%E0%B8%A7%E0%B8%A1" target="_blank" rel="noopener">
+                ดูซอร์สโค้ดบน GitHub ↗
+              </a>
+            </div>
+          </article>
+
+          <article class="work">
+            <div class="work__media">
+              <img src="assets/works/line-bot.jpg" alt="ภาพหน้าจอ Chatbot ให้ความรู้ทองคำผ่าน LINE">
+            </div>
+            <div class="work__content">
+              <h3>Chatbot ให้ความรู้ทองคำผ่าน LINE</h3>
+              <p>
+                พัฒนา Chatbot สำหรับให้บริการผ่าน LINE ผู้ใช้สามารถส่งคำถามหรือขอข้อมูลผ่านแชท
+                LINE ได้โดยตรง ระบบจะประมวลผลข้อความและเชื่อมต่อข้อมูลจากบริการภายนอกเพื่อประกอบการตอบคำถาม
+              </p>
+              <ul class="tags tags--sm">
+                <li>LINE Messaging API</li><li>Chatbot</li>
+              </ul>
+              <a class="work__link" href="https://github.com/Katawutxz/Gold-Knowledge-Chatbot-System" target="_blank" rel="noopener">
+                ดูซอร์สโค้ดบน GitHub ↗
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── ใบรับรอง ─── -->
+    <section id="certs" class="section">
+      <div class="section__label"><span>04</span>ใบรับรอง</div>
+      <div class="section__body">
+        <p class="certs__note">เลื่อนดูใบรับรองทั้งหมด 17 ใบ จาก Microsoft Learn (สาย GitHub &amp; Copilot)</p>
+
+        <div class="certs__viewport">
+          <button class="certs__nav certs__nav--prev" type="button" aria-label="เลื่อนย้อนกลับ">‹</button>
+          <ul class="certs__track" id="certsTrack">
+
+            <li class="certcard">
+              <img src="assets/certs/intro-github.png" alt="ใบรับรอง Introduction to GitHub" loading="lazy">
+              <div class="certcard__body">
+                <h3>Introduction to GitHub</h3>
+                <p>พื้นฐานการใช้งาน GitHub สำหรับควบคุมเวอร์ชันโค้ด</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/intro-github-products.png" alt="ใบรับรอง Introduction to GitHub's products" loading="lazy">
+              <div class="certcard__body">
+                <h3>Introduction to GitHub's products</h3>
+                <p>ภาพรวมผลิตภัณฑ์ต่าง ๆ ในระบบนิเวศของ GitHub</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/github-administration.png" alt="ใบรับรอง Introduction to GitHub administration" loading="lazy">
+              <div class="certcard__body">
+                <h3>Introduction to GitHub administration</h3>
+                <p>พื้นฐานการบริหารจัดการองค์กรและสิทธิ์การใช้งานบน GitHub</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/authenticate-authorize-identities.png" alt="ใบรับรอง Authenticate and authorize user identities on GitHub" loading="lazy">
+              <div class="certcard__body">
+                <h3>Authenticate and authorize user identities on GitHub</h3>
+                <p>การยืนยันตัวตนและกำหนดสิทธิ์ผู้ใช้บน GitHub</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/upload-project-best-practices.png" alt="ใบรับรอง Upload your project by using GitHub best practices" loading="lazy">
+              <div class="certcard__body">
+                <h3>Upload your project by using GitHub best practices</h3>
+                <p>แนวทางที่ดีที่สุดในการอัปโหลดโปรเจกต์ขึ้นสู่ GitHub</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/manage-pull-requests.png" alt="ใบรับรอง Manage repository changes by using pull requests on GitHub" loading="lazy">
+              <div class="certcard__body">
+                <h3>Manage repository changes by using pull requests</h3>
+                <p>การบริหารจัดการการเปลี่ยนแปลงโค้ดผ่าน Pull Request</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/merge-conflict-resolution.png" alt="ใบรับรอง Settle competing commits by using merge conflict resolution on GitHub" loading="lazy">
+              <div class="certcard__body">
+                <h3>Settle competing commits with merge conflict resolution</h3>
+                <p>การแก้ไข Merge Conflict เมื่อมีการ Commit ที่ขัดแย้งกันบน GitHub</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/repo-history-search.png" alt="ใบรับรอง Search and organize repository history by using GitHub" loading="lazy">
+              <div class="certcard__body">
+                <h3>Search and organize repository history by using GitHub</h3>
+                <p>การค้นหาและจัดระเบียบประวัติของ Repository บน GitHub</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/release-based-workflow.png" alt="ใบรับรอง Manage software delivery by using a release based workflow on GitHub" loading="lazy">
+              <div class="certcard__body">
+                <h3>Manage software delivery with a release-based workflow</h3>
+                <p>การบริหารการส่งมอบซอฟต์แวร์ด้วยขั้นตอน Release บน GitHub</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/migrate-repository.png" alt="ใบรับรอง Migrate your repository by using GitHub best practices" loading="lazy">
+              <div class="certcard__body">
+                <h3>Migrate your repository by using GitHub best practices</h3>
+                <p>แนวทางที่ดีที่สุดในการย้าย Repository เข้าสู่ GitHub</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/secure-repository.png" alt="ใบรับรอง Maintain a secure repository by using GitHub best practices" loading="lazy">
+              <div class="certcard__body">
+                <h3>Maintain a secure repository by using GitHub best practices</h3>
+                <p>แนวทางการดูแล Repository ให้ปลอดภัยตามมาตรฐาน GitHub</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/innersource-program.png" alt="ใบรับรอง Manage an InnerSource program by using GitHub" loading="lazy">
+              <div class="certcard__body">
+                <h3>Manage an InnerSource program by using GitHub</h3>
+                <p>การบริหารโปรแกรม InnerSource เพื่อแบ่งปันโค้ดภายในองค์กร</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/automate-devops-github-apps.png" alt="ใบรับรอง Automate DevOps processes by using GitHub Apps" loading="lazy">
+              <div class="certcard__body">
+                <h3>Automate DevOps processes by using GitHub Apps</h3>
+                <p>การใช้ GitHub Apps เพื่อสร้างระบบอัตโนมัติในขั้นตอน DevOps</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/intro-mcp-server.png" alt="ใบรับรอง Introduction to MCP Server" loading="lazy">
+              <div class="certcard__body">
+                <h3>Introduction to MCP Server</h3>
+                <p>พื้นฐานของ Model Context Protocol (MCP) Server สำหรับต่อ AI เข้ากับเครื่องมือภายนอก</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/copilot-coding-agent.png" alt="ใบรับรอง Accelerate development with GitHub Copilot coding agent" loading="lazy">
+              <div class="certcard__body">
+                <h3>Accelerate development with GitHub Copilot coding agent</h3>
+                <p>การใช้ Copilot coding agent เร่งความเร็วในการพัฒนาซอฟต์แวร์</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/copilot-agent-mode.png" alt="ใบรับรอง Building applications with GitHub Copilot agent mode" loading="lazy">
+              <div class="certcard__body">
+                <h3>Building applications with GitHub Copilot agent mode</h3>
+                <p>การสร้างแอปพลิเคชันด้วย Copilot ในโหมด Agent</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+            <li class="certcard">
+              <img src="assets/certs/copilot-code-reviews.png" alt="ใบรับรอง Leveling up code reviews and pull requests with GitHub Copilot" loading="lazy">
+              <div class="certcard__body">
+                <h3>Leveling up code reviews and pull requests with Copilot</h3>
+                <p>การใช้ Copilot ยกระดับการรีวิวโค้ดและ Pull Request</p>
+                <span class="certcard__date">27 พ.ย. 2025 · Microsoft</span>
+              </div>
+            </li>
+
+          </ul>
+          <button class="certs__nav certs__nav--next" type="button" aria-label="เลื่อนไปข้างหน้า">›</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ─── ติดต่อ ─── -->
+    <section id="contact" class="section section--last">
+      <div class="section__label"><span>05</span>ติดต่อ</div>
+      <div class="section__body">
+        <div class="contact__grid">
+          <p class="contact__lead">
+            ยินดีรับพิจารณางานประจำและงานโปรเจกต์ ติดต่อได้ตามช่องทางด้านล่าง — ตอบกลับภายใน 1–2 วันทำการ
+          </p>
+          <ul class="contact__list">
+            <li><span>อีเมล</span><a href="mailto:puvanart.sar@spumail.net">puvanart.sar@spumail.net</a></li>
+            <li><span>โทรศัพท์</span><a href="tel:+66991451726">099-1451726</a></li>
+            <li><span>GitHub</span><a href="https://github.com/Mos0991451726" target="_blank" rel="noopener">github.com/Mos0991451726</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/puvanart-saruttanontha-5a229b438/" target="_blank" rel="noopener">linkedin.com/in/puvanart-saruttanontha</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer class="foot">
+  <p>© 2026 ภูวนาท ศรุตติ์ตานนทร์ · ปรับปรุงล่าสุด กันยายน 2569</p>
+</footer>
+
+<!-- ─── Lightbox สำหรับขยายรูป ─── -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="ภาพขยาย">
+  <button class="lightbox__close" id="lightboxClose" type="button" aria-label="ปิด">×</button>
+  <img class="lightbox__img" id="lightboxImg" src="" alt="">
+  <p class="lightbox__caption" id="lightboxCaption"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
